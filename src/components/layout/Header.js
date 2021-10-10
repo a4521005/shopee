@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import { Input } from 'antd';
 import {ShoppingCartOutlined} from '@ant-design/icons';
 
+
 const StyledHeaderSection = styled.div`
     display: flex;
     justify-content:space-between;
