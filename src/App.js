@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter , Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter , Redirect, Switch, Route, Link} from "react-router-dom";
 import HomePage from './pages/HomePage';
 import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/CheckoutPage';
