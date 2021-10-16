@@ -39,7 +39,7 @@ const Flex = styled.div`
     justify-content:space-between;
 `
 const Header = ({className}) =>{
-    const {isAuthenticated}= useContext(AuthContext)
+    const {isAuthenticated, logout}= useContext(AuthContext)
     return (
         <StyledHeader>
             <Container>
@@ -54,9 +54,13 @@ const Header = ({className}) =>{
                         <a href="#">通知</a>
                         <a href="#">幫助中心</a>
                         {isAuthenticated ?(
-                            <a href="#">Celine</a>
+                            <div>
+                                <a href="#">Celine</a>
+                                <span onClick={()=>logout()}>登出</span>
+
+                            </div>
                         ):(
-                            <a href="#">登入/註冊</a>
+                            <Link to="/login">登入/註冊</Link>
                         )}
 
                     </Toolbar>
@@ -64,7 +68,7 @@ const Header = ({className}) =>{
                 </StyledHeaderSection>
                 <StyledHeaderSection>
                     <Link to="/">
-                        <img src="https://images.squarespace-cdn.com/content/v1/587757c93a04116470cb31a9/1567639331318-RCXPSZB9MKSBUX5DMOTT/shopee-logo.png?format=1000w" alt="logo" height={48}></img>
+                        <img src="https://images.squarespace-cdn.com/content/v1/587757c93a04116470cb31a9/1567639331318-RCXPSZB9MKSBUX5DMOTT/shopee-logo.png?format=1000w" alt="logo" width="80"></img>
                     </Link>
                     <Flex>
                         <Input.Search style={{marginRight: 8}} placeholder="在商城搜尋" onSearch={(value)=>console.log(value)} enterButton /> 

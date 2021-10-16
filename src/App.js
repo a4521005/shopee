@@ -8,6 +8,7 @@ import ProductPage from './pages/ProductPage';
 import "antd/dist/antd.css";
 import ScrollToTop from "./components/common/ScrollToTop";
 import {AuthProvider} from "./components/auth/AuthContext";
+import LoginPage from './pages/LoginPage';
 
 const App=() => {
   return (
@@ -20,6 +21,9 @@ const App=() => {
             </Route>
             <Route path="/mall" exact>
               <HomePage/>
+            </Route>
+            <Route path="/login" exact>
+              <LoginPage/>
             </Route>
             <Route path="/cart" exact>
               <CartPage/>
