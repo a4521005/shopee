@@ -7,32 +7,35 @@ import ProductCollectionPage from './pages/ProductCollectionPage';
 import ProductPage from './pages/ProductPage';
 import "antd/dist/antd.css";
 import ScrollToTop from "./components/common/ScrollToTop";
+import {AuthProvider} from "./components/auth/AuthContext";
 
 const App=() => {
   return (
-    <BrowserRouter>
-    <ScrollToTop/>
-      <Switch>
-        <Route path="/" exact>
-          <Redirect to="/mall"/>
-        </Route>
-        <Route path="/mall" exact>
-          <HomePage/>
-        </Route>
-        <Route path="/cart" exact>
-          <CartPage/>
-        </Route>
-        <Route path="/checkout" exact>
-          <CheckoutPage/>
-        </Route>
-        <Route path="/mall/:categoryName" >
-          <ProductCollectionPage/>
-        </Route>
-        <Route path="/:productName" >
-          <ProductPage/>
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <AuthProvider>
+      <BrowserRouter>
+        <ScrollToTop/>
+          <Switch>
+            <Route path="/" exact>
+              <Redirect to="/mall"/>
+            </Route>
+            <Route path="/mall" exact>
+              <HomePage/>
+            </Route>
+            <Route path="/cart" exact>
+              <CartPage/>
+            </Route>
+            <Route path="/checkout" exact>
+              <CheckoutPage/>
+            </Route>
+            <Route path="/mall/:categoryName" >
+              <ProductCollectionPage/>
+            </Route>
+            <Route path="/:productName" >
+              <ProductPage/>
+            </Route>
+          </Switch>
+        </BrowserRouter>
+    </AuthProvider>
   );
 }
 
