@@ -6,6 +6,7 @@ import { Carousel } from 'antd';
 import {Link} from 'react-router-dom';
 import ProductCard from '../components/product/productCard'
 import AuthContext from "../components/auth/AuthContext";
+import PopupModal  from "../components/common/PopupModal";
 
 
 const BannerBox = styled.div`
@@ -137,6 +138,7 @@ const HomePage = ()=>{
     const {isAuthenticated} = useContext(AuthContext)
     return( 
     <DefaultLayout fixedHeader>
+    <PopupModal/>
     <ClearFix />
         {isAuthenticated && <h1>歡迎回來</h1>}
         <BannerBox>
