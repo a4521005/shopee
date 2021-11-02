@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import { Input } from 'antd';
 import {ShoppingCartOutlined} from '@ant-design/icons';
 import AuthContext from "../auth/AuthContext";
+import logo from './image/shopee-logo.png';
 
 
 
@@ -68,7 +69,9 @@ const Header = ({className}) =>{
                 </StyledHeaderSection>
                 <StyledHeaderSection>
                     <Link to="/">
-                        <img src="https://images.squarespace-cdn.com/content/v1/587757c93a04116470cb31a9/1567639331318-RCXPSZB9MKSBUX5DMOTT/shopee-logo.png?format=1000w" alt="logo" width="80"></img>
+                        {/* <img src="https://images.squarespace-cdn.com/content/v1/587757c93a04116470cb31a9/1567639331318-RCXPSZB9MKSBUX5DMOTT/shopee-logo.png?format=1000w" alt="logo" width="80"></img> */}
+                        <img src={logo} alt="logo" width="80"></img>
+
                     </Link>
                     <Flex>
                         <Input.Search style={{marginRight: 8}} placeholder="在商城搜尋" onSearch={(value)=>console.log(value)} enterButton /> 
