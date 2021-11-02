@@ -197,92 +197,92 @@ const HomePage = ()=>{
         </CustomerContainer>
         <ProductCollectionContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/593d575f0b97028edcc0e49f447bcfcb_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/2528f1bde94d0312c656598fbc98800d_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/3e0690960fc4cf5e545491b725cc7d59_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link> 
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/ae54477c70046e6c717b021ec16a43cf_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/98016307cf2b0388b07de81e027c9532_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/f14b303a18cf804b9f30e86568dd0372_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/593d575f0b97028edcc0e49f447bcfcb_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/2528f1bde94d0312c656598fbc98800d_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link> 
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/3e0690960fc4cf5e545491b725cc7d59_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link> 
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/ae54477c70046e6c717b021ec16a43cf_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>    
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/98016307cf2b0388b07de81e027c9532_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>    
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">
+                <Link to="/watch">
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/f14b303a18cf804b9f30e86568dd0372_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">    
+                <Link to="/watch">    
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/593d575f0b97028edcc0e49f447bcfcb_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>    
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">    
+                <Link to="/watch">    
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/2528f1bde94d0312c656598fbc98800d_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>    
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">    
+                <Link to="/watch">    
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/3e0690960fc4cf5e545491b725cc7d59_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>    
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">    
+                <Link to="/watch">    
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/ae54477c70046e6c717b021ec16a43cf_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>    
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">    
+                <Link to="/watch">    
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/98016307cf2b0388b07de81e027c9532_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>    
             </ProductContainer>
             <ProductContainer>
-                <Link to="/">    
+                <Link to="/watch">    
                     <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/f14b303a18cf804b9f30e86568dd0372_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
                 </Link>    
             </ProductContainer>
