@@ -20,8 +20,46 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30vh;
+    margin-bottom: 5vh;
 }
+
+.recommend-list {
+    margin-bottom: 10vh;
+}
+
+.recommend-list .recommend-title{
+    font-size: 26px;
+    margin-bottom: 22px;
+    font-weight: 700;
+}
+.recommendproductcollection-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0;
+    margin-left: -4px;
+    margin-right: -4px;
+    margin-bottom: 58px;
+}
+
+.recommendproduct-container{
+    width: 100%;
+    padding: 4px;
+}
+
+@media screen and (min-width:577px){
+    .recommendproduct-container{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:769px){
+    .recommendproduct-container{
+        width: 20%;
+    }
+}
+
+
 .container{
     max-width: 1200px;
     padding: 0 1rem;

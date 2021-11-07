@@ -8,6 +8,8 @@ import watch3 from './image/w3.png';
 import watch4 from './image/w4.png';
 import watch5 from './image/w5.png';
 import watch6 from './image/w6.png';
+import ProductCard from '../components/product/productCard'
+
 import {ShoppingCartOutlined, CreditCardOutlined} from '@ant-design/icons';
 import './style.css';
 import './script';
@@ -55,6 +57,39 @@ const ProductPage = ()=>{
             </div>
         </div>
     </div>
+    <div class="recommend-list">
+        <p class="recommend-title">
+            Recommend products
+        </p>
+        <div class="recommendproductcollection-container">
+            <div class="recommendproduct-container">
+                <a href="/watch">
+                    <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/593d575f0b97028edcc0e49f447bcfcb_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
+                </a>
+            </div>
+            <div class="recommendproduct-container">
+                <a href="/watch">
+                    <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/593d575f0b97028edcc0e49f447bcfcb_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
+                </a>
+            </div>
+            <div class="recommendproduct-container">
+                <a href="/watch">
+                    <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/593d575f0b97028edcc0e49f447bcfcb_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
+                </a>
+            </div>
+            <div class="recommendproduct-container">
+                <a href="/watch">
+                    <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/593d575f0b97028edcc0e49f447bcfcb_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
+                </a>
+            </div>
+            <div class="recommendproduct-container">
+                <a href="/watch">
+                    <ProductCard title="foo" coverUrl="https://cf.shopee.tw/file/593d575f0b97028edcc0e49f447bcfcb_tn" width="100%" salePrices={[100, 200]} listPrices={[200, 299]}/>
+                </a>
+            </div>
+        </div>
+    </div>
+    
     
 
     </DefaultLayout>
